@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nermine FShop - Canvas Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Left Sidebar for Buttons   UNDO TARAJO3-->
+        <div id="left-sidebar">
+            <div id="edittools">
+                <h2>Tools:</h2>
+                <div class="tool-group">
+                    <button class="button" id="undo">Undo</button>
+                    <button class="button" id="redo">Redo</button>
+                    <button class="button" id="clear">Clear C</button>
+                    <button class="button" id="save">Save ImG</button>
+                </div>
+                <div class="tool-group">
+                    <button class="button" id="add-img">Add Image</button>
+                    <button class="button" id="fill-bg">Fill BG</button>
+                    <button class="button" id="increase-brush">+</button>
+                    <button class="button" id="decrease-brush">-</button>
+                </div>
+                <div class="tool-group">
+                    <button class="button" id="shapes">Shapes</button>
+                    <button class="button" id="text">Text</button>
+                    <button class="button" id="draw">Drwg</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Canvas in the Center -->
+        <div id="canvas">
+            <p id="canvasp">Your canvas is ready!</p>
+        </div>
+
+        <!-- Right Sidebar for Additional Tools -->
+        <div id="right-sidebar">
+            <div id="need">
+                <div id="div">
+                    <p id="p">Additional tools or info can go here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
